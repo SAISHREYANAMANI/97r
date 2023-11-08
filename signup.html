@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- <img src="../images/check mark.png" title="check mark" height="40"/> -->
+<fieldset>
+    <legend><h2>SIGNUP FORM</h2></legend>
+ <form action="./login.html" method="get" target="_self">
+    <!--<button type="signup/Register">Login/Register</button><br><br>-->
+    <label for="Fname">First Name</label>
+    <input name="Fname" id="" type="text" placeholder="enter first name"/>
+    <label for="middlename"> Middle name</label>
+    <input type="text" name="middlename" placeholder="enter middlename">
+    <label for="Lname">Last Name</label>
+    <input name="Lname" type="text" placeholder="enter your lastname"/><br><br>
+    <label for ="Number">Phone Number</label>
+    <input type="tel" name="Number" id="number" placeholder="enter your number" pattern="[0-9]{10}"/>
+    <label for="date of birth"> DOB:</label>
+    <input type="datetime-local" name="date of birth" id="dob">
+    <label for="mail id">Email ID:</label>
+    <input type="email" id="mail" name="mail id" placeholder="xyz@gmail.com" autofocus><br><br>
+    <button type="next">NEXT</button><br>
+    <input type="range"><br>
+    <input type="search">
+    <p>ENTER YOUR GENDER:</p>
+    <input type="radio" value="male" name="gender" id="male"/>
+    <label for="male">male</label><br>
+    <input type="radio" value="female" name="gender" id="female"/>
+    <label for="female">female</label><br>
+    <input type="radio" value="others" name="gender" id="others"/>
+    <label for="others">others</label><br><br>
+    <p>Address:</p>
+    <textarea rows="13" cols="40"></textarea><br>
+    <label for="choose country">choose country</label>
+    <select  name="choose country" id="country">
+      <option value="INDIA">INDIA</option>
+      <option value="USA">USA</option>
+      <option value="AUSTRALIA">AUSTRALIA</option>
+      <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+      <option value="NORWAY">NORWAY</option>
+      <option value="ITALY">ITALY</option>
+      <option value="canada">canada</option>
+    </select><br><br>
+    <label for="file">Upload your resume</label>
+    <input type="file">
+    <small>(only pdf 200KB or 250KB)</small>
+    <h3>skills</h3>
+    <input type="checkbox" value="HTML" name="html" checked>
+    <label for="age1" >HTML</label><br>
+    <input type="checkbox" value="20-25" name="CSS">
+    <label for="CSS">CSS</label><br>
+    <input type="checkbox" value="25-30" name="JS">
+    <label for="JS">JAVASCRIPT</label><br><br>
+    <button type="submit">submit</button>
+    <input type="reset"/>
+    <button formaction="./login.html">have an account</button>
+  </form>
+</fieldset>
+</body>
+</html>
