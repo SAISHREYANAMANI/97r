@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css2.css"/>
+</head>
+<body>
+    <form>
+        <fieldset style="border-width: thick; border-color: blue;">
+            <legend class="c0"><b>PAYMENT FORM</b></legend>
+            <b><p style="color: blue; text-align: center; font-size: larger;"><b>ACCOUNT</b></p>
+            <label class="c1" for="Fname">Name:</label>
+            <input  id="id1" name="Fname" id="text" type="text" placeholder="enter first name"/><br><br>
+            <label class="c2" for ="Number">Phone Number:</label>
+            <input  id="id2" type="tel" name="Number" id="number" placeholder="enter your number" pattern="[0-9]{10}"/><br><br>
+            <label class="c3" for="date of birth"> DOB:</label>
+            <input id="id3" type="datetime-local" name="date of birth" id="dob"><br><br>
+            <label class="c4" for="mail id">Email ID:</label>
+            <input  id="id4"type="email" id="mail" name="mail id" placeholder="xyz@gmail.com" autofocus><br><br>
+            <label class="c5" for="cardnum">CardNumber:</label>
+            <input  id="id5"type="number" id="number" name="cardnum" placeholder="enter cardnumber" autofocus>
+            <label class="c6" for="date">Validthru:</label>
+            <input  id="id6"type="date" id="date" name="date" placeholder="xyz@gmail.com"><br><br>
+            <label class="c7" for="choose country">choose country</label>
+            <select id="id7" name="choose country" id="country">
+              <option value="INDIA">INDIA</option>
+              <option value="USA">USA</option>
+              <option value="AUSTRALIA">AUSTRALIA</option>
+              <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+              <option value="NORWAY">NORWAY</option>
+              <option value="ITALY">ITALY</option>
+              <option value="canada">canada</option>
+            </select><br><br>
+            <button type="submit" class="c7" id="id7">PAYNOW</button><b>
+        </fieldset>
+    </form>
+</body>
+</html>

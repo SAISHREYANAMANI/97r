@@ -1,0 +1,17 @@
+body{
+    background-color:bisque;
+}
+*{
+    text-align: center;
+}
+.c0{
+    color:blue; font-size: large; font-style: italic;
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c
+{
+    color:blue; text-align:left; font-size:larger; font-style:normal; text-align:center;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i
+{
+     border-color:black; border-width:medium;color:blueviolet;
+}
