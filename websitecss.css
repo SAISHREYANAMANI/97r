@@ -1,0 +1,96 @@
+.main{
+    border:1px solid;
+    height:1500px;
+    width:900px;
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+    background-color: aqua;
+    padding-left: 70px;
+    padding-right: 80px;
+}
+img.icon{
+    position:relative;
+    height:80px;
+    padding-right:900px;
+}
+ div.increase{
+    position:absolute;
+    left:450px;
+    top:50px;
+}
+/* div.increase:hover{
+    width:900px;
+    height: 1000px;
+} */
+img:hover{
+    width:520px;
+}
+.side{
+    border:1px soild;
+    height:800px;
+    width:500px;
+}
+div.nav{
+    position: sticky;
+    top:0;
+
+}
+h4.na{
+    /* position: sticky;
+    top:0; */
+    display: flex;
+    justify-content:space-evenly;
+    background-color:beige;
+    border-radius: 32px;
+    text-align: center;
+    justify-self: center;
+    }
+h4:hover{
+    color:chartreuse; 
+    background-color: antiquewhite;
+    padding:10px;
+}
+.hidden{
+    display:none;
+    color:black;
+    padding:20px;
+}
+.decor:hover ~ .hidden{
+display: block;
+/* border:1px solid; */
+/* padding:1px; */
+/* color:chartreuse; */
+}
+img{
+align-content: center;
+}
+span{
+color:blue;
+}
+div>p{
+font-size: larger;
+}
+button{
+background-color: chocolate;
+color:antiquewhite;
+border:1px solid;
+height:60px;
+border-radius: 20px;
+}
+button:hover{
+box-shadow:2px 3px;
+background-color: chocolate;
+
+}
+div.chatbox{
+position:fixed;
+position: fixed;
+bottom: 0;
+right: 0;
+top:10;
+background-color:whitesmoke;
+}
+.chatbox:hover{
+font-size:xx-large;
+}
