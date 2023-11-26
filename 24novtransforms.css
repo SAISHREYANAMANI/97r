@@ -1,0 +1,118 @@
+.background{
+    background-color: whitesmoke;
+    height:1300px;
+    width:600px;
+    padding:40px;
+    margin:10px;
+}
+.box{
+    border:1px solid;
+    width:500px;
+    height:30px;
+    display: inline-block;
+    text-align: start;
+    padding: 7px;   
+    background-color: darkslategrey;
+    opacity: 0.9;
+}
+div .box:hover{
+        background-color:black;
+        opacity:0.8;
+}
+.t{
+  width:80px;
+  height:200px;
+  padding:20px;
+  font-size: larger;
+  display:inline-block;
+  background-color:lightblue;
+  position:absolute;
+  right:800px;
+  bottom:550px;
+  top:100px;
+}
+span{
+    color:deeppink;
+    font-size: large;
+}
+.span1{
+    color: green;
+    font-size: large;
+}
+.hide{
+    position:absolute;
+    left:80px;
+    top:0px;
+}
+.background2{
+    position:absolute;
+    left:450px;
+    top:120px;
+    border:1px solid;
+    border-style: none;
+    background-color:white;
+    height:1270px;
+    width:600px;
+    margin:10px;
+    gap:10px;
+}
+p{
+    font-size: large;
+}
+input[value="transform: none;"]:checked ~ .t{
+    transform: none;
+}
+input[value="transform: rotate(10deg);"]:checked ~ .t{
+    transform: rotate(10deg);
+}
+input[value="transform: rotate(45deg);"]:checked ~ .t{
+    transform: rotate(45deg);
+}
+input[value="transform: rotateX(45deg);"]:checked ~ .t{
+    transform: rotateX(45deg);
+}
+input[value="transform: rotateX(100deg);"]:checked ~ .t{
+    transform: rotateX(100deg);
+}
+input[value="transform: rotateY(45deg);"]:checked ~ .t{
+    transform: rotateY(45deg);
+}
+input[value="transform: rotateY(80deg);"]:checked ~ .t{
+    transform: rotateY(80deg);
+}
+input[value="transform: skew(20deg,20deg);"]:checked ~ .t{
+    transform: skew(20deg,20deg);
+}
+input[value="transform: skew(30deg, 30deg);"]:checked ~ .t{
+    transform: skew(30deg, 30deg);
+}
+input[value="transform: skewX(40deg);"]:checked ~ .t{
+    transform: skewX(40deg);
+}
+input[value="transform: skewX(30deg);"]:checked ~ .t{
+    transform: skewX(30deg);
+}
+input[value="transform: skewY(40deg);"]:checked ~ .t{
+    transform: skewY(40deg);
+}
+input[value="transform: translate(20px,10px);"]:checked ~ .t{
+    transform: translate(20px,10px);
+}
+input[value="transform: translate(20px,20px);"]:checked ~ .t{
+    transform: translate(20px,20px);
+}
+input[value="transform: scale(2,2);"]:checked ~ .t{
+    transform: scale(2,2);
+}
+input[value="transform: scale(2,3);"]:checked ~ .t{
+    transform: scale(2,3);
+}
+input[value="transform: matrix(0.866,0.7,-0.8,0.866,0,0);"]:checked ~ .t{
+    transform: matrix(0.866,0.7,-0.8,0.866,0,0);
+}
+input[value="transform: matrix(0.586,0.8-0.8,0.586,0,0);"]:checked ~ .t{
+    transform: matrix(0.586,0.8-0.8,0.586,0,0);
+}
+input[value="transform: matrix(0.586,0.8,-0.8,0.586,40,30);"]:checked ~ .t{
+    transform: matrix(0.586,0.8,-0.8,0.586,40,30);
+}
