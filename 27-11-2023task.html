@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+</head>
+<style>
+    .moon{
+        position:absolute;
+        top:10px;
+    }
+    .water{
+        position:relative;
+        top:490px;
+        left:00px;
+        bottom:50px;
+        right:80px;
+    }
+    .boat{
+        position:absolute;
+        top:590px;
+        left:900px;
+        bottom:900px;
+        right:90px;
+        animation-name: boat;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+        animation-timing-function:steps(20);
+    }
+    .stars{
+        position:absolute;
+        top:70px;
+        bottom:20px;
+        left:10px;
+        animation-name: ss;
+        animation-duration: 12s;
+    }
+    .str1{
+        position:absolute;
+        top:90px;
+        bottom:25px;
+        left:300px;
+        right:90px;
+        animation-name: ss;
+        /* animation-duration: 15s; */
+    }
+    .str2{
+        position:absolute;
+        top:100px;
+        bottom:35px;
+        left:800px;
+        right:100px;
+        animation-name: ss;
+        animation-duration: 15s;
+    }
+    .str3{
+        position:absolute;
+        top:80px;
+        bottom:35px;
+        left:500px;
+        right:100px;
+        animation-name: ss;
+        animation-duration: 6s;
+        /* animation-iteration-count: infinite; */
+        animation-timing-function:steps(6);
+    }
+    .str4{
+        position:absolute;
+        top:80px;
+        bottom:35px;
+        left:500px;
+        right:100px;
+        animation-name: ss;
+
+    }
+    .snow{
+        position:absolute;
+        top:300px;
+        bottom:0px;
+        left:60px;
+        animation-name: s;
+        animation-duration: 10s;
+        animation-timing-function:steps(10);
+    }
+    .snow1{
+        position:absolute;
+        top:600px;
+        bottom:0px;
+        left:280px;
+        animation-name: s;
+        animation-duration: 10s;
+        animation-timing-function:steps(10);
+        animation-fill-mode:both;
+    }
+@keyframes ss{
+    10% {transform: translateY(0px);}
+  50% {transform: translateY(500px);}
+}
+@keyframes ss1{
+    10% {transform: translateY(0px);}
+  50% {transform: translateY(400px);}
+}
+@keyframes s{
+    0%{transform:translateX(70px);}
+    100%{transform:translateX(370px);}
+}
+@keyframes boat{
+    from{
+        transform:translateX(150px);
+    }
+    to{
+        transform:translateX(-59px);
+    }
+}
+</style>
+<body>
+        <img  class="moon" src="https://c02.purpledshub.com/uploads/sites/62/2019/06/GettyImages-135462687-48af3d8.jpg?w=1175&webp=1" alt="moon" width="1200px" height="700px">
+        <img  class="stars ss" src="https://tr.rbxcdn.com/8e293f1e1a7b966627a20424c5f3c2f8/420/420/Hat/Png" alt="star" width="200px" height="100px">
+        <img  class="str1 ss" src="https://tr.rbxcdn.com/8e293f1e1a7b966627a20424c5f3c2f8/420/420/Hat/Png" alt="star" width="200px" height="100px">
+        <img  class="str2 ss" src="https://tr.rbxcdn.com/8e293f1e1a7b966627a20424c5f3c2f8/420/420/Hat/Png" alt="star" width="200px" height="100px">
+        <img  class="str3 ss" src="https://tr.rbxcdn.com/8e293f1e1a7b966627a20424c5f3c2f8/420/420/Hat/Png" alt="star" width="200px" height="100px">  
+        <img  class="str4 ss1" src="https://tr.rbxcdn.com/8e293f1e1a7b966627a20424c5f3c2f8/420/420/Hat/Png" alt="star" width="200px" height="100px">
+        <img  class="snow s" src="../images/snowman-removebg-preview.png" alt="snow" width="600px" height="500px">   
+        <img  class="snow1 ss" src="../images/snowball-removebg-preview.png" alt="snowball" height="100px" width="100px">
+        <img class="water" src="https://opengameart.org/sites/default/files/preview_742.png" alt="water" width="1200px">
+        <img  class="boat ss" src="../images/boat-removebg-preview.png" alt="boat" height="200px" width="200px">
+       
+</body>
+</html>
